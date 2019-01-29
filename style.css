@@ -2,7 +2,44 @@
 	padding: 0;
 	margin: 0;
 }
-/*body {
+
+a {
+	text-decoration: none;
+	color: #2c71b8;
+}
+.head {
+	width: 100%;
+	height: 100px;
+  	background-color: rgb(255, 255, 255);
+  	opacity: 0.75;
+  	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	z-index: 4;
+}
+
+.logo {
+	float: left;
+	box-sizing: border-box;
+}
+.nav {
+	float: left;
+}
+
+.menu {
+	list-style-type: none;
+	float: left;
+}
+
+.search {
+	float: left;
+}
+
+.basket {
+	
+}
+
+/*body { 
     border-radius: 10px;
     height: 230px;
     background-color: #4e9ad5;
@@ -12,15 +49,6 @@
                       linear-gradient(90deg, rgba(255, 255, 255, .3) 1px, transparent 1px), 
                       linear-gradient(rgba(255, 255, 255, .1) 1px, transparent 1px), 
                       linear-gradient(90deg, rgba(255, 255, 255, .1) 1px, transparent 1px);
-    
-}*/
+  
+}*/  
 
-body {
-	background-color: green;
-}
-
-.logo {
-	background-color: grey;
-	width: 100%;
-	height: 100px;
-}
