@@ -1,12 +1,9 @@
-* {
-	padding: 0;
-	margin: 0;
-}
 
 a {
 	text-decoration: none;
 	color: rgba(44, 113, 184, 0.75);
 	font-size: 21px;
+	display: block;
 }
 .head {
 	width: 100%;
@@ -29,12 +26,10 @@ a {
 }
 
 .menu {
-	list-style-type: none;
+	list-style: none;
 	float: left;
 	width: 140px;
-	height: 50px;
-	box-sizing: border-box;
-	padding: 15px 45px;
+	border: 1px blue solid;
 }
 
 .search {
