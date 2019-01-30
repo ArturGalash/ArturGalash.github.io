@@ -67,13 +67,18 @@ body {
 }
 .search input[type="search"] {
 	border: none;
-	height: 50%;
-	width: 146px;
+	height: 30px;
+	width: 150px;
 	color: #2c71b8;
 	margin: 5px;
 	background-color: rgb(255, 255, 255, 0);
 	font-size: 21px;
     font-family: "Roboto";
+    display: block;
+    float: left;
+}
+.search input[type="search"]::-webkit-input-placeholder {
+	color: #2c71b8;
 }
 .search input[type="submit"] {
 	width: 30px;
