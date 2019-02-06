@@ -53,6 +53,30 @@ body {
 	color: #2c71b8;
 }
 
+.submenu {
+	position: absolute;
+	display: none;
+	margin-left: -1px;
+}
+.submenu li{
+	position: relative;
+	float: none;
+	height: 40px;
+	width: 125%;
+	border: none;
+}
+.submenu a {
+	text-align: left;
+	padding-left: 30px;
+}
+
+.menu li:hover .submenu {
+	display: block;
+}
+.submenu li:hover a {
+	background-color: white;
+	color: #2c71b8;
+}
 /*body { 
     border-radius: 10px;
     height: 230px;
