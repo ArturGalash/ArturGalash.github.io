@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-	width: 1170px;
+	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -19,6 +19,7 @@ body {
 }
 [class*="col-"] {
 	float: left;
+	padding: 0 15px;
 }
 .col-md-3 {
 	width: 25%;
@@ -80,16 +81,18 @@ body {
 }
 
 .col-md-2 {
-	width: 79%;
+	width: 80%;
+	padding: 0;
 }
 .col-md-1 {
-	width: 21%;
+	width: 20%;
+	padding: 0;
 }
 .search_field {
 	border: 1px solid #2c71b8;
 	height: 40px;
 	width: 200px;
-	margin: 5px 0 5px 30px;
+	margin: 5px 0;
 	text-align: center;
 	line-height: 40px;
 
@@ -145,6 +148,23 @@ input::-webkit-input-placeholder {
 	background-color: white;
 	margin: 5px 0 0 5px;
 }
+
+.slider {
+	height: 400px;
+	border: 1px solid #ffffff;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+	line-height: 400px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.device_type {
+	height: 100%;
+	border-right: 1px solid white;
+	background-color: rgb(255, 255, 255, 0.2);
+	
+}
 /*body { 
     border-radius: 10px;
     height: 230px;
@@ -157,3 +177,17 @@ input::-webkit-input-placeholder {
                       linear-gradient(90deg, rgba(255, 255, 255, .1) 1px, transparent 1px);
   
 }*/  
+.Прямоугольник_2_копия_7 {
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.2;
+  position: absolute;
+  left: 375px;
+  top: 500px;
+  width: 268px;
+  height: 841px;
+  z-index: 14;
+}
+
