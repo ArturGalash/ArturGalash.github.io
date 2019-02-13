@@ -203,6 +203,32 @@ h1 {
 .img img {
 	vertical-align: middle;
 }
+.description {
+	border: 1px solid rgb(255, 255, 255);
+	height: 470px;
+}
+.description p {
+	font-size: 22px;
+	color: rgb(255, 255, 255);
+}
+sup { 
+	vertical-align: baseline; 
+	position: relative; 
+	top: -24px;
+	font-size: 24px; 
+}
+
+.description button {
+	width: 210px;
+	height: 50px;
+	border: 1px solid rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	color: rgb(255, 255, 255);
+	font-size: 22px;
+	text-align: center;
+	margin: 15px 29px;
+	font-weight: bold;
+}
 /*body { 
     border-radius: 10px;
     height: 230px;
@@ -215,17 +241,19 @@ h1 {
                       linear-gradient(90deg, rgba(255, 255, 255, .1) 1px, transparent 1px);
   
 }*/  
-.Прямоугольник_4_копия_5 {
-  border-width: 1px;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
-  background-color: rgba(44, 113, 184, 0.749);
+#_1_Device_Name_Lorem_ipsum_dolor_sit_amet__conse {
+  font-size: 30px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
   position: absolute;
-  left: 675px;
-  top: 843px;
-  width: 268px;
-  height: 471px;
-  z-index: 2;
+  left: 690px;
+  top: 855.068px;
+  width: 220px;
+  height: 213px;
+  z-index: 64;
 }
 
 
