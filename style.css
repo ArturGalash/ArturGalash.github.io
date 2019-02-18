@@ -163,9 +163,13 @@ input::-webkit-input-placeholder {
 	background-color: rgba(0, 0, 0, 0.2);
 }
 .left_sidebar {
-	height: 100vh;
+	min-height: 100%;
 }
-
+.devicetype {
+	height: 840px;
+	border: 1px solid rgb(255, 255, 255);
+  	background-color: rgba(255, 255, 255, 0.2);
+}
 .pointing_navigation {
 	height: 120px;
 }
@@ -202,11 +206,46 @@ h1 {
 	background-color: rgba(255, 255, 255, 0.75);
 	height: 180px;
 	text-align: center;
-	line-height: 180px; 
+	line-height: 180px;
+
 }
 .img img {
 	vertical-align: middle;
 }
+.goods input[type="checkbox"]{
+	display: none;
+}
+label {
+	position: relative;
+}
+.square:before {
+	content: "";
+	display: block;
+	background: url(image/square.png) no-repeat 50% 50%;
+	border: 1px solid rgb(44, 113, 184);
+	height: 28px;
+	width: 28px;
+	position: absolute;
+	margin: 10px 0 5px 233px;
+}
+input[type="checkbox"]:checked + .square:before{
+	background: url(image/squarewhite.png) no-repeat 50% 50%;
+
+}
+.heart:before {
+	content: "";
+	display: block;
+	background: url(image/heart.png) no-repeat 50% 50%;
+	border: 1px solid rgb(44, 113, 184);
+	height: 28px;
+	width: 28px;
+	position: absolute;
+	margin: 49px 0 5px 233px;
+}
+input[type="checkbox"]:checked + .heart:before{
+	background: url(image/heartwhite.png) no-repeat 50% 50%;
+}
+
 .description {
 	border: 1px solid rgb(255, 255, 255);
 	background-color: rgba(44, 113, 184, 0.749);
@@ -257,6 +296,26 @@ sup {
 	font-weight: bold;
 	text-transform: uppercase;
 }
+button .basketwhite{
+	height: 17px;
+	width: 15px;
+	background: url(image/basketwhite.png) no-repeat 50% 50%;
+	float: right;
+	padding: 12px;
+}
+.description button:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.footer {
+  	background-color: rgba(255, 255, 255, 0.75);
+  	height: 100px;
+  	color: #2c71b8;
+  	text-align: center;
+  	line-height: 100px;
+  	font-size: 21px;
+ 	
+}
+
 
 /*body { 
     border-radius: 10px;
@@ -270,20 +329,21 @@ sup {
                       linear-gradient(90deg, rgba(255, 255, 255, .1) 1px, transparent 1px);
   
 }*/  
-#_1_Device_Name_Lorem_ipsum_dolor_sit_amet__conse {
-  font-size: 30px;
+.©_Copyright_2017 {
+  font-size: 21px;
   font-family: "Roboto";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
+  color: rgb(44, 113, 184);
   line-height: 1.2;
   text-align: left;
   position: absolute;
-  left: 690px;
-  top: 855.068px;
-  width: 220px;
-  height: 213px;
-  z-index: 64;
+  left: 878px;
+  top: 2871.448px;
+  z-index: 13;
 }
+
+
+
+
 
 
 
