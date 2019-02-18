@@ -27,6 +27,10 @@ body {
 .col-md-6 {
 	width: 50%;
 }
+
+.logo{
+	padding: 4px;
+}
 .header {
 	background-color: rgba(255, 255, 255, 0.75);
 	padding: 10px 0;
@@ -69,7 +73,7 @@ body {
 	text-align: left;
 	height: 40px;
     line-height: 40px;
-    padding: 0 28px 0 30px;
+    padding: 0 21px 0 30px;
 }
 
 .menu li:hover .submenu {
@@ -205,16 +209,39 @@ h1 {
 }
 .description {
 	border: 1px solid rgb(255, 255, 255);
+	background-color: rgba(44, 113, 184, 0.749);
 	height: 470px;
+	padding: 15px;
 }
 .description p {
 	font-size: 22px;
 	color: rgb(255, 255, 255);
+	line-height: 1.3;
+}
+.description span {
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+h2{
+	font-size: 48px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: center;
+	line-height: 1.4;
+}
+h3 {
+	font-size: 30px;
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	line-height: 1.2;
 }
 sup { 
 	vertical-align: baseline; 
 	position: relative; 
-	top: -24px;
+	top: -20px;
 	font-size: 24px; 
 }
 
@@ -226,9 +253,11 @@ sup {
 	color: rgb(255, 255, 255);
 	font-size: 22px;
 	text-align: center;
-	margin: 15px 29px;
+	margin: 13px 14px;
 	font-weight: bold;
+	text-transform: uppercase;
 }
+
 /*body { 
     border-radius: 10px;
     height: 230px;
@@ -255,6 +284,8 @@ sup {
   height: 213px;
   z-index: 64;
 }
+
+
 
 
 
