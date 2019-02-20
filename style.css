@@ -166,7 +166,7 @@ input::-webkit-input-placeholder {
 /*leftsidebar*/
 .leftsidebar {
 	height: 840px;
-	border: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
   	background-color: rgba(255, 255, 255, 0.2);
   	margin-top: -16px;
   	padding: 0 30px;
